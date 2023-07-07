@@ -58,3 +58,8 @@ export const Container = styled.div`
     height: 100%;
     max-width: 1500px;
 `
+export const ContainerButtons = styled.div`
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+`
