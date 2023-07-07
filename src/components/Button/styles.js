@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
-const buttonStyles = styled.css`
+const buttonStyles = css`
     border: 3px solid #ffffff;
     background: transparent;
     color: #ffffff;
