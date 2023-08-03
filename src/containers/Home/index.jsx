@@ -27,7 +27,7 @@ function Home() {
                 data: { results }
             } = await api.get("/movie/top_rated")
 
-            console.log(results)
+            // console.log(results)
             setTopMovies(results)
         }
 
@@ -36,7 +36,7 @@ function Home() {
                 data: { results }
             } = await api.get("/tv/top_rated")
 
-            console.log(results)
+            // console.log(results)
             setTopSeries(results)
         }
 
@@ -45,7 +45,7 @@ function Home() {
                 data: { results }
             } = await api.get("/tv/popular")
 
-            console.log(results)
+            // console.log(results)
             setPopularSeries(results)
         }
 
@@ -54,7 +54,7 @@ function Home() {
                 data: { results }
             } = await api.get("/person/popular")
 
-            console.log(results)
+            // console.log(results)
             setTopPeople(results)
         }
 
