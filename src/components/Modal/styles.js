@@ -17,9 +17,17 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: fixed;
     padding: 50px;
     max-width: 1200px;
+
+    button {
+        width: 20px;
+        margin-left: 795px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
 
     iframe {
         border: none;
